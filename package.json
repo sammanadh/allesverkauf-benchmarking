@@ -1,0 +1,14 @@
+{
+  "name": "allesverkauf-benchmarks",
+  "version": "1.0.0",
+  "description": "Automated Lighthouse benchmarking for allesverkauf apps",
+  "scripts": {
+    "benchmark": "node run-benchmarks.js",
+    "analyze": "node analyze-results.js"
+  },
+  "dependencies": {
+    "chrome-launcher": "^1.2.1",
+    "fs-extra": "^11.3.3",
+    "lighthouse": "^13.0.3"
+  }
+}
