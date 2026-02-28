@@ -1,0 +1,387 @@
+{
+  "desktop-fast": {
+    "buildtime": {
+      "performanceScore": 100,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 212.764,
+          "displayValue": "0.21s"
+        },
+        "largest-contentful-paint": {
+          "value": 803.5530000000001,
+          "displayValue": "0.80s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 213.334,
+          "displayValue": "0.21s"
+        },
+        "interactive": {
+          "value": 803.5530000000001,
+          "displayValue": "804ms"
+        }
+      }
+    },
+    "runtime-v1": {
+      "performanceScore": 98,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 221.85169999999982,
+          "displayValue": "0.22s"
+        },
+        "largest-contentful-paint": {
+          "value": 1151.3473800000002,
+          "displayValue": "1.15s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 383.44095132975525,
+          "displayValue": "0.38s"
+        },
+        "interactive": {
+          "value": 1151.3473800000002,
+          "displayValue": "1151ms"
+        }
+      }
+    },
+    "runtime-v2": {
+      "performanceScore": 97,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 473.97849999999994,
+          "displayValue": "0.47s"
+        },
+        "largest-contentful-paint": {
+          "value": 1240.3709999999996,
+          "displayValue": "1.24s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 674.9151375066489,
+          "displayValue": "0.67s"
+        },
+        "interactive": {
+          "value": 1240.3709999999996,
+          "displayValue": "1240ms"
+        }
+      }
+    }
+  },
+  "desktop-medium": {
+    "buildtime": {
+      "performanceScore": 81,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 763.8919999999998,
+          "displayValue": "0.76s"
+        },
+        "largest-contentful-paint": {
+          "value": 3394.643,
+          "displayValue": "3.39s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 763.8919999999998,
+          "displayValue": "0.76s"
+        },
+        "interactive": {
+          "value": 3394.643,
+          "displayValue": "3395ms"
+        }
+      }
+    },
+    "runtime-v1": {
+      "performanceScore": 78,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 771.5679600000001,
+          "displayValue": "0.77s"
+        },
+        "largest-contentful-paint": {
+          "value": 4217.57994,
+          "displayValue": "4.22s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 773.6214,
+          "displayValue": "0.77s"
+        },
+        "interactive": {
+          "value": 4217.57994,
+          "displayValue": "4218ms"
+        }
+      }
+    },
+    "runtime-v2": {
+      "performanceScore": 66,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 1914.8281849999998,
+          "displayValue": "1.91s"
+        },
+        "largest-contentful-paint": {
+          "value": 6164.2973999999995,
+          "displayValue": "6.16s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 1914.8281849999998,
+          "displayValue": "1.91s"
+        },
+        "interactive": {
+          "value": 6164.2973999999995,
+          "displayValue": "6164ms"
+        }
+      }
+    }
+  },
+  "mobile-4g": {
+    "buildtime": {
+      "performanceScore": 96,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 765.874,
+          "displayValue": "0.77s"
+        },
+        "largest-contentful-paint": {
+          "value": 2716.4975000000004,
+          "displayValue": "2.72s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 765.874,
+          "displayValue": "0.77s"
+        },
+        "interactive": {
+          "value": 2716.4975000000004,
+          "displayValue": "2716ms"
+        }
+      }
+    },
+    "runtime-v1": {
+      "performanceScore": 88,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 769.7504799999999,
+          "displayValue": "0.77s"
+        },
+        "largest-contentful-paint": {
+          "value": 3893.71036,
+          "displayValue": "3.89s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 769.7504799999999,
+          "displayValue": "0.77s"
+        },
+        "interactive": {
+          "value": 3893.71036,
+          "displayValue": "3894ms"
+        }
+      }
+    },
+    "runtime-v2": {
+      "performanceScore": 79,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 1910.1585,
+          "displayValue": "1.91s"
+        },
+        "largest-contentful-paint": {
+          "value": 5430.067029999999,
+          "displayValue": "5.43s"
+        },
+        "total-blocking-time": {
+          "value": 1,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 1918.8007349999998,
+          "displayValue": "1.92s"
+        },
+        "interactive": {
+          "value": 5430.067029999999,
+          "displayValue": "5430ms"
+        }
+      }
+    }
+  },
+  "mobile-slow-3g": {
+    "buildtime": {
+      "performanceScore": 74,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 2015.57,
+          "displayValue": "2.02s"
+        },
+        "largest-contentful-paint": {
+          "value": 8166.715999999999,
+          "displayValue": "8.17s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 2017.9599999999998,
+          "displayValue": "2.02s"
+        },
+        "interactive": {
+          "value": 8166.716,
+          "displayValue": "8167ms"
+        }
+      }
+    },
+    "runtime-v1": {
+      "performanceScore": 73,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 2017.57454,
+          "displayValue": "2.02s"
+        },
+        "largest-contentful-paint": {
+          "value": 12550.203860000001,
+          "displayValue": "12.55s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 2017.57454,
+          "displayValue": "2.02s"
+        },
+        "interactive": {
+          "value": 12550.203860000001,
+          "displayValue": "12550ms"
+        }
+      }
+    },
+    "runtime-v2": {
+      "performanceScore": 60,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 5847.928155,
+          "displayValue": "5.85s"
+        },
+        "largest-contentful-paint": {
+          "value": 19150.319839999996,
+          "displayValue": "19.15s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 5847.928155,
+          "displayValue": "5.85s"
+        },
+        "interactive": {
+          "value": 19168.713971999998,
+          "displayValue": "19169ms"
+        }
+      }
+    }
+  },
+  "mobile-low-end": {
+    "buildtime": {
+      "performanceScore": 74,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 2018.02,
+          "displayValue": "2.02s"
+        },
+        "largest-contentful-paint": {
+          "value": 8191.6275000000005,
+          "displayValue": "8.19s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 2018.02,
+          "displayValue": "2.02s"
+        },
+        "interactive": {
+          "value": 8191.627500000001,
+          "displayValue": "8192ms"
+        }
+      }
+    },
+    "runtime-v1": {
+      "performanceScore": 73,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 2020.7813800000001,
+          "displayValue": "2.02s"
+        },
+        "largest-contentful-paint": {
+          "value": 12583.346419999998,
+          "displayValue": "12.58s"
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 2020.7813800000001,
+          "displayValue": "2.02s"
+        },
+        "interactive": {
+          "value": 12583.346419999998,
+          "displayValue": "12583ms"
+        }
+      }
+    },
+    "runtime-v2": {
+      "performanceScore": 60,
+      "metrics": {
+        "first-contentful-paint": {
+          "value": 5855.100510000001,
+          "displayValue": "5.86s"
+        },
+        "largest-contentful-paint": {
+          "value": 19378.491560000002,
+          "displayValue": "19.38s"
+        },
+        "total-blocking-time": {
+          "value": 0.5,
+          "displayValue": "0.00s"
+        },
+        "speed-index": {
+          "value": 5855.100510000001,
+          "displayValue": "5.86s"
+        },
+        "interactive": {
+          "value": 19378.491560000002,
+          "displayValue": "19378ms"
+        }
+      }
+    }
+  }
+}
