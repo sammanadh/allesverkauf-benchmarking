@@ -1,14 +1,16 @@
-{/* 
-  * CITATION_START
-  * Much of these configuration code are genrated using ClaudeAI
-*/ }
+{
+  /*
+   * CITATION_START
+   * Much of these configuration code are genrated using ClaudeAI
+   */
+}
 
 module.exports = {
   // Desktop with fast network (your baseline)
-  'desktop-fast': {
-    extends: 'lighthouse:default',
+  "desktop-fast": {
+    extends: "lighthouse:default",
     settings: {
-      formFactor: 'desktop',
+      formFactor: "desktop",
       throttling: {
         rttMs: 40,
         throughputKbps: 10 * 1024, // 10 Mbps
@@ -29,10 +31,10 @@ module.exports = {
   },
 
   // Desktop with medium network
-  'desktop-medium': {
-    extends: 'lighthouse:default',
+  "desktop-medium": {
+    extends: "lighthouse:default",
     settings: {
-      formFactor: 'desktop',
+      formFactor: "desktop",
       throttling: {
         rttMs: 150,
         throughputKbps: 1.6 * 1024, // 1.6 Mbps (Fast 3G)
@@ -52,10 +54,10 @@ module.exports = {
   },
 
   // Mobile with 4G
-  'mobile-4g': {
-    extends: 'lighthouse:default',
+  "mobile-4g": {
+    extends: "lighthouse:default",
     settings: {
-      formFactor: 'mobile',
+      formFactor: "mobile",
       throttling: {
         rttMs: 150,
         throughputKbps: 1.6 * 1024, // 1.6 Mbps
@@ -75,10 +77,10 @@ module.exports = {
   },
 
   // Mobile with Slow 3G
-  'mobile-slow-3g': {
-    extends: 'lighthouse:default',
+  "mobile-slow-3g": {
+    extends: "lighthouse:default",
     settings: {
-      formFactor: 'mobile',
+      formFactor: "mobile",
       throttling: {
         rttMs: 400,
         throughputKbps: 400, // 400 Kbps
@@ -98,10 +100,10 @@ module.exports = {
   },
 
   // Low-end mobile with Slow 3G (worst case)
-  'mobile-low-end': {
-    extends: 'lighthouse:default',
+  "mobile-low-end": {
+    extends: "lighthouse:default",
     settings: {
-      formFactor: 'mobile',
+      formFactor: "mobile",
       throttling: {
         rttMs: 400,
         throughputKbps: 400,
@@ -120,4 +122,6 @@ module.exports = {
     },
   },
 };
-{/* CITATION_END */ }
+{
+  /* CITATION_END */
+}

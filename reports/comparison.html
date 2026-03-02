@@ -1,255 +1,271 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <title>Lighthouse Benchmark Results</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #f5f5f5; }
-    h1 { color: #333; }
-    .profile { margin-bottom: 40px; background: white; padding: 20px; border-radius: 8px; }
-    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-    th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
-    th { background-color: #4CAF50; color: white; }
-    tr:hover { background-color: #f5f5f5; }
-    .best { background-color: #c8e6c9; font-weight: bold; }
-    .worst { background-color: #ffcdd2; }
-  </style>
-</head>
-<body>
-  <h1>Micro-Frontend Performance Comparison</h1>
-  <p>Generated: 2/26/2026, 5:03:07 PM</p>
-  
-  
-    <div class="profile">
-      <h2>📱 DESKTOP FAST</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Variant</th>
-            <th>Performance Score</th>
-            <th>FCP</th>
-            <th>LCP</th>
-            <th>TBT</th>
-            <th>Speed Index</th>
-          </tr>
-        </thead>
-        <tbody>
-          
-            <tr>
-              <td><strong>buildtime</strong></td>
-              <td>100</td>
-              <td>0.21s</td>
-              <td>0.80s</td>
-              <td>0.00s</td>
-              <td>0.21s</td>
-            </tr>
-          
-            <tr>
-              <td><strong>runtime-v1</strong></td>
-              <td>98</td>
-              <td>0.22s</td>
-              <td>1.15s</td>
-              <td>0.00s</td>
-              <td>0.38s</td>
-            </tr>
-          
-            <tr>
-              <td><strong>runtime-v2</strong></td>
-              <td>97</td>
-              <td>0.47s</td>
-              <td>1.24s</td>
-              <td>0.00s</td>
-              <td>0.67s</td>
-            </tr>
-          
-        </tbody>
-      </table>
-    </div>
-  
-    <div class="profile">
-      <h2>📱 DESKTOP MEDIUM</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Variant</th>
-            <th>Performance Score</th>
-            <th>FCP</th>
-            <th>LCP</th>
-            <th>TBT</th>
-            <th>Speed Index</th>
-          </tr>
-        </thead>
-        <tbody>
-          
-            <tr>
-              <td><strong>buildtime</strong></td>
-              <td>81</td>
-              <td>0.76s</td>
-              <td>3.39s</td>
-              <td>0.00s</td>
-              <td>0.76s</td>
-            </tr>
-          
-            <tr>
-              <td><strong>runtime-v1</strong></td>
-              <td>78</td>
-              <td>0.77s</td>
-              <td>4.22s</td>
-              <td>0.00s</td>
-              <td>0.77s</td>
-            </tr>
-          
-            <tr>
-              <td><strong>runtime-v2</strong></td>
-              <td>66</td>
-              <td>1.91s</td>
-              <td>6.16s</td>
-              <td>0.00s</td>
-              <td>1.91s</td>
-            </tr>
-          
-        </tbody>
-      </table>
-    </div>
-  
-    <div class="profile">
-      <h2>📱 MOBILE 4G</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Variant</th>
-            <th>Performance Score</th>
-            <th>FCP</th>
-            <th>LCP</th>
-            <th>TBT</th>
-            <th>Speed Index</th>
-          </tr>
-        </thead>
-        <tbody>
-          
-            <tr>
-              <td><strong>buildtime</strong></td>
-              <td>96</td>
-              <td>0.77s</td>
-              <td>2.72s</td>
-              <td>0.00s</td>
-              <td>0.77s</td>
-            </tr>
-          
-            <tr>
-              <td><strong>runtime-v1</strong></td>
-              <td>88</td>
-              <td>0.77s</td>
-              <td>3.89s</td>
-              <td>0.00s</td>
-              <td>0.77s</td>
-            </tr>
-          
-            <tr>
-              <td><strong>runtime-v2</strong></td>
-              <td>79</td>
-              <td>1.91s</td>
-              <td>5.43s</td>
-              <td>0.00s</td>
-              <td>1.92s</td>
-            </tr>
-          
-        </tbody>
-      </table>
-    </div>
-  
-    <div class="profile">
-      <h2>📱 MOBILE SLOW 3G</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Variant</th>
-            <th>Performance Score</th>
-            <th>FCP</th>
-            <th>LCP</th>
-            <th>TBT</th>
-            <th>Speed Index</th>
-          </tr>
-        </thead>
-        <tbody>
-          
-            <tr>
-              <td><strong>buildtime</strong></td>
-              <td>74</td>
-              <td>2.02s</td>
-              <td>8.17s</td>
-              <td>0.00s</td>
-              <td>2.02s</td>
-            </tr>
-          
-            <tr>
-              <td><strong>runtime-v1</strong></td>
-              <td>73</td>
-              <td>2.02s</td>
-              <td>12.55s</td>
-              <td>0.00s</td>
-              <td>2.02s</td>
-            </tr>
-          
-            <tr>
-              <td><strong>runtime-v2</strong></td>
-              <td>60</td>
-              <td>5.85s</td>
-              <td>19.15s</td>
-              <td>0.00s</td>
-              <td>5.85s</td>
-            </tr>
-          
-        </tbody>
-      </table>
-    </div>
-  
-    <div class="profile">
-      <h2>📱 MOBILE LOW END</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Variant</th>
-            <th>Performance Score</th>
-            <th>FCP</th>
-            <th>LCP</th>
-            <th>TBT</th>
-            <th>Speed Index</th>
-          </tr>
-        </thead>
-        <tbody>
-          
-            <tr>
-              <td><strong>buildtime</strong></td>
-              <td>74</td>
-              <td>2.02s</td>
-              <td>8.19s</td>
-              <td>0.00s</td>
-              <td>2.02s</td>
-            </tr>
-          
-            <tr>
-              <td><strong>runtime-v1</strong></td>
-              <td>73</td>
-              <td>2.02s</td>
-              <td>12.58s</td>
-              <td>0.00s</td>
-              <td>2.02s</td>
-            </tr>
-          
-            <tr>
-              <td><strong>runtime-v2</strong></td>
-              <td>60</td>
-              <td>5.86s</td>
-              <td>19.38s</td>
-              <td>0.00s</td>
-              <td>5.86s</td>
-            </tr>
-          
-        </tbody>
-      </table>
-    </div>
-  
-</body>
+    <head>
+        <title>Lighthouse Benchmark Results</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 40px;
+                background: #f5f5f5;
+            }
+            h1 {
+                color: #333;
+            }
+            .profile {
+                margin-bottom: 40px;
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            th,
+            td {
+                padding: 12px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+            th {
+                background-color: #4caf50;
+                color: white;
+            }
+            tr:hover {
+                background-color: #f5f5f5;
+            }
+            .best {
+                background-color: #c8e6c9;
+                font-weight: bold;
+            }
+            .worst {
+                background-color: #ffcdd2;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Micro-Frontend Performance Comparison</h1>
+        <p>Generated: 2/26/2026, 5:03:07 PM</p>
+
+        <div class="profile">
+            <h2>📱 DESKTOP FAST</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Variant</th>
+                        <th>Performance Score</th>
+                        <th>FCP</th>
+                        <th>LCP</th>
+                        <th>TBT</th>
+                        <th>Speed Index</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>buildtime</strong></td>
+                        <td>100</td>
+                        <td>0.21s</td>
+                        <td>0.80s</td>
+                        <td>0.00s</td>
+                        <td>0.21s</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>runtime-v1</strong></td>
+                        <td>98</td>
+                        <td>0.22s</td>
+                        <td>1.15s</td>
+                        <td>0.00s</td>
+                        <td>0.38s</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>runtime-v2</strong></td>
+                        <td>97</td>
+                        <td>0.47s</td>
+                        <td>1.24s</td>
+                        <td>0.00s</td>
+                        <td>0.67s</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="profile">
+            <h2>📱 DESKTOP MEDIUM</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Variant</th>
+                        <th>Performance Score</th>
+                        <th>FCP</th>
+                        <th>LCP</th>
+                        <th>TBT</th>
+                        <th>Speed Index</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>buildtime</strong></td>
+                        <td>81</td>
+                        <td>0.76s</td>
+                        <td>3.39s</td>
+                        <td>0.00s</td>
+                        <td>0.76s</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>runtime-v1</strong></td>
+                        <td>78</td>
+                        <td>0.77s</td>
+                        <td>4.22s</td>
+                        <td>0.00s</td>
+                        <td>0.77s</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>runtime-v2</strong></td>
+                        <td>66</td>
+                        <td>1.91s</td>
+                        <td>6.16s</td>
+                        <td>0.00s</td>
+                        <td>1.91s</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="profile">
+            <h2>📱 MOBILE 4G</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Variant</th>
+                        <th>Performance Score</th>
+                        <th>FCP</th>
+                        <th>LCP</th>
+                        <th>TBT</th>
+                        <th>Speed Index</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>buildtime</strong></td>
+                        <td>96</td>
+                        <td>0.77s</td>
+                        <td>2.72s</td>
+                        <td>0.00s</td>
+                        <td>0.77s</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>runtime-v1</strong></td>
+                        <td>88</td>
+                        <td>0.77s</td>
+                        <td>3.89s</td>
+                        <td>0.00s</td>
+                        <td>0.77s</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>runtime-v2</strong></td>
+                        <td>79</td>
+                        <td>1.91s</td>
+                        <td>5.43s</td>
+                        <td>0.00s</td>
+                        <td>1.92s</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="profile">
+            <h2>📱 MOBILE SLOW 3G</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Variant</th>
+                        <th>Performance Score</th>
+                        <th>FCP</th>
+                        <th>LCP</th>
+                        <th>TBT</th>
+                        <th>Speed Index</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>buildtime</strong></td>
+                        <td>74</td>
+                        <td>2.02s</td>
+                        <td>8.17s</td>
+                        <td>0.00s</td>
+                        <td>2.02s</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>runtime-v1</strong></td>
+                        <td>73</td>
+                        <td>2.02s</td>
+                        <td>12.55s</td>
+                        <td>0.00s</td>
+                        <td>2.02s</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>runtime-v2</strong></td>
+                        <td>60</td>
+                        <td>5.85s</td>
+                        <td>19.15s</td>
+                        <td>0.00s</td>
+                        <td>5.85s</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="profile">
+            <h2>📱 MOBILE LOW END</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Variant</th>
+                        <th>Performance Score</th>
+                        <th>FCP</th>
+                        <th>LCP</th>
+                        <th>TBT</th>
+                        <th>Speed Index</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>buildtime</strong></td>
+                        <td>74</td>
+                        <td>2.02s</td>
+                        <td>8.19s</td>
+                        <td>0.00s</td>
+                        <td>2.02s</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>runtime-v1</strong></td>
+                        <td>73</td>
+                        <td>2.02s</td>
+                        <td>12.58s</td>
+                        <td>0.00s</td>
+                        <td>2.02s</td>
+                    </tr>
+
+                    <tr>
+                        <td><strong>runtime-v2</strong></td>
+                        <td>60</td>
+                        <td>5.86s</td>
+                        <td>19.38s</td>
+                        <td>0.00s</td>
+                        <td>5.86s</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
 </html>
-  
