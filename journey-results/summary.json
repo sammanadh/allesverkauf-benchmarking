@@ -1,0 +1,12 @@
+{
+  "buildtime": {
+    "medianINP": 64,
+    "medianInteractions": 42,
+    "runs": [
+      {
+        "totalInteractions": 42,
+        "inp": 64
+      }
+    ]
+  }
+}
