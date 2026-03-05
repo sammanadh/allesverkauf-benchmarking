@@ -1,0 +1,398 @@
+{
+  "desktop-fast": {
+    "buildtime": {
+      "medianINP": 64,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 56
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 56
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        }
+      ]
+    },
+    "runtime-v1": {
+      "medianINP": 64,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 56
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        }
+      ]
+    },
+    "runtime-v2": {
+      "medianINP": 64,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 56
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 48
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        }
+      ]
+    }
+  },
+  "desktop-medium": {
+    "buildtime": {
+      "medianINP": 64,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 56
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        }
+      ]
+    },
+    "runtime-v1": {
+      "medianINP": 64,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 56
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 56
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        }
+      ]
+    },
+    "runtime-v2": {
+      "medianINP": 64,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 56
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 88
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        }
+      ]
+    }
+  },
+  "mobile-4g": {
+    "buildtime": {
+      "medianINP": 80,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 88
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        }
+      ]
+    },
+    "runtime-v1": {
+      "medianINP": 80,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        }
+      ]
+    },
+    "runtime-v2": {
+      "medianINP": 80,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 88
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        }
+      ]
+    }
+  },
+  "mobile-slow-3g": {
+    "buildtime": {
+      "medianINP": 80,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 88
+        }
+      ]
+    },
+    "runtime-v1": {
+      "medianINP": 72,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 64
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        }
+      ]
+    },
+    "runtime-v2": {
+      "medianINP": 80,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 72
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 80
+        }
+      ]
+    }
+  },
+  "mobile-low-end": {
+    "buildtime": {
+      "medianINP": 96,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 96
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 96
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 104
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 96
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 96
+        }
+      ]
+    },
+    "runtime-v1": {
+      "medianINP": 96,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 96
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 96
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 96
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 96
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 104
+        }
+      ]
+    },
+    "runtime-v2": {
+      "medianINP": 96,
+      "medianInteractions": 40,
+      "runs": [
+        {
+          "totalInteractions": 40,
+          "inp": 112
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 96
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 104
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 96
+        },
+        {
+          "totalInteractions": 40,
+          "inp": 96
+        }
+      ]
+    }
+  }
+}
