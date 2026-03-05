@@ -185,21 +185,6 @@ async function runUserJourney(url, appName, profileName, runNumber) {
     await page.type('#your_email', 'john.doe@example.com', { delay: 50 });
     await delay(500);
 
-    // STEP 15-17: Select options
-    console.log('    → Selecting payment and delivery...');
-    const gridDivs = await page.$$('div.grid.grid-cols-1.gap-4.md\\:grid-cols-3');
-    if (gridDivs.length !== 2) throw new Error(`Expected 2 grid divs, found ${gridDivs.length}`);
-
-    const shippingOptions = await gridDivs[0].$$('div');
-    if (shippingOptions.length < 2) throw new Error('Not enough shipping options');
-    await shippingOptions[1].click();
-    await delay(500);
-
-    const paymentOptions = await gridDivs[1].$$('div');
-    if (paymentOptions.length < 3) throw new Error('Not enough payment options');
-    await paymentOptions[2].click();
-    await delay(500);
-
     // STEP 18: Place order
     console.log('    → Placing order...');
     const placeOrderButton = await page.evaluateHandle(() => {
