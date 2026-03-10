@@ -1,7 +1,9 @@
-{/* 
-  * CITATION_START
-  * Much of these configuration code are genrated using ClaudeAI
-*/ }
+/**
+  * DISCLOSURE: AI Generated Code 
+  * Much of these configuration code was genrated using ClaudeAI
+  * The author and adopted and verified the code for correctness.
+*/
+
 // run-benchmarks.js
 import lighthouse from 'lighthouse';
 import * as chromeLauncher from 'chrome-launcher';
@@ -245,5 +247,3 @@ async function generateComparisonReport(results) {
 
 // Run the benchmarks
 main().catch(console.error);
-
-{/* CITATION_END */ }
