@@ -1,6 +1,7 @@
-/* 
-  * CITATION_START
-  * Much of these configuration code are generated using ClaudeAI
+/**
+  * DISCLOSURE: AI Generated Code 
+  * Much of these configuration code was genrated using ClaudeAI
+  * The author and adopted and verified the code for correctness.
 */
 
 import puppeteer from 'puppeteer';
@@ -376,5 +377,3 @@ async function generateComparisonReport(results) {
 }
 
 main().catch(console.error);
-
-{/* CITATION_END */ }
